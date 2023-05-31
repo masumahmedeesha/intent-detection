@@ -30,7 +30,7 @@ class Home extends React.Component {
 										<span className="badge badge-dark ml-1 mr-1">
 											SNIPS
 										</span>
-										কে স্ট্যান্ডার্ড ধরে আমরা
+										কে স্ট্যান্ডার্ড ধরে আমি
 										<span className="badge badge-primary mr-1 ml-1">
 											Intent Detection and Slot Filling
 										</span>

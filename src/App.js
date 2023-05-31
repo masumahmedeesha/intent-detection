@@ -10,7 +10,7 @@ import RecentlyCreated from "./pages/recentlyCreated"
 import Dashboard from './pages/dashboard'
 import Navigation from './components/navigation/Navigation'
 import SelectMultiple from './pages/selectMultiple'
-import FourOFour from './components/fourOfour'
+// import FourOFour from './components/fourOfour'
 
 function App() {
 	return (
@@ -27,7 +27,7 @@ function App() {
 					<Route path="/recentlyCreated" component={RecentlyCreated} />
 					<Route path="/dashboard" component={Dashboard}/>
 					<Route path="/select" component={SelectMultiple}/>
-					<Route component={FourOFour}/>
+					<Route component={Home}/>
 				</Switch>
 			</div>
 		</BrowserRouter>
